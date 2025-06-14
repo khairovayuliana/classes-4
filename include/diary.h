@@ -5,10 +5,10 @@
 #include <iostream>
 
 class Diary {
-private:
+  private:
     // your code here
 
-public:
+  public:
     Diary(const std::string& initialPassword);
     ~Diary();
 
@@ -17,4 +17,3 @@ public:
     void lock();
     std::string read();
 };
-
